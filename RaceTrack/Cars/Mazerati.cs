@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace RaceTrack.RaceTrack.Cars
 {
-    public class FordGt : RaceCar
-    { 
-        public FordGt()
+    public class Mazerati : RaceCar
+    {
+        public Mazerati()
         {
-            Name = "Ford GT";
-            TopSpeed = 100;
+            Name = "Mazerati";
+            TopSpeed = 120;
         }
 
         public override void StartEngine()
         {
-            Console.WriteLine($"The {Name} roars to life!");
+            Console.WriteLine($"The {Name} purrs like a cougar!");
         }
         public override void Brake()
         {
-            Console.WriteLine($"The {Name} slams the breaks and paints the race track with black strips.");
+            Console.WriteLine($"The {Name} screeches to a halt and the engine hisses!");
             base.Brake();
         }
     }

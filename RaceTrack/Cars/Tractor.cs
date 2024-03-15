@@ -18,7 +18,6 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} struggles to start");
         }
-
         public override void Brake()
         {
             Console.WriteLine($"The {Name} is having a hard time stopping!");
